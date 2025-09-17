@@ -43,7 +43,8 @@ Why? Because the Lambda function is the **caller**, not the callee. The resource
 | Resource-Based Policy  | Allows external services (e.g., S3) to invoke the Lambda function       |
 | Uploading to S3        | Update execution role with `s3:PutObject`; no change to resource policy |
 
-==============================================================================================================================
+---
+---
 **Lambda permissions best practices** that align with both operational efficiency and security maturity:
 
 ### **1. Principle of Least Privilege**
